@@ -1,5 +1,46 @@
 body {
+  background-color: black;
   font-family: "Lato", sans-serif;
+}
+
+header {
+  background-color: #000000;
+  color: white;
+  height: 200px;
+}
+
+.noxu {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#menu {
+  position: relative;
+  margin-right: 20px;
+}
+
+.icono-menu {
+  border: 0.5px solid gray;
+  border-radius: 2px;
+  height: 30px;
+  width: 40px;
+  color: gray;
+}
+
+.home {
+  color: white;
+  font-size: 25px;
+}
+
+.list {
+  color: gray;
+  font-size: 25px;
+  display: none;
+}
+
+#menu:checked + .list {
+  display: block;
 }
 
 /*# sourceMappingURL=web.css.map */
