@@ -1,0 +1,18 @@
+@import '../common/variables';
+
+.view-all {
+    display: flex;
+    justify-content: end;
+    border: 1px solid $blanco;
+    border-radius: 2px;
+    height: 60px;
+    width: 120px;
+    margin: 20px;
+}
+
+.text-view {
+    font-size: 20px;
+    color: $blanco;
+    vertical-align: center;
+    padding-left: 5px;
+}

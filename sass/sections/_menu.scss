@@ -3,7 +3,9 @@
 header {
     background-color: #000000;
     color: $blanco;
-    height:200px;
+    height:75px;
+    display: flex;
+    margin: 0;
 }
 
 .noxu {
@@ -12,17 +14,15 @@ header {
     text-decoration: none;
 }
 
-#menu {
-position: relative;
-margin-right: 20px;
-}
-
 .icono-menu {
     border: 0.5px solid gray;
     border-radius: 2px;
     height: 30px;
     width: 40px;
-    color:gray;
+}
+
+.fa-bars {
+    font-size: 30px;
 }
 
 .home {

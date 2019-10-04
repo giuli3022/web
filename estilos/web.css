@@ -1,12 +1,43 @@
 body {
   background-color: black;
   font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+#main-section {
+  background-image: url(../imgs/hero-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
+}
+
+.titles {
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.titulo {
+  padding-top: 20px;
+  margin: 0;
+  font-size: 32px;
+}
+
+.subtitulo {
+  margin-top: 15px;
+  font-size: 24px;
+  font-style: italic;
 }
 
 header {
   background-color: #000000;
   color: white;
-  height: 200px;
+  height: 75px;
+  display: flex;
+  margin: 0;
 }
 
 .noxu {
@@ -15,17 +46,15 @@ header {
   text-decoration: none;
 }
 
-#menu {
-  position: relative;
-  margin-right: 20px;
-}
-
 .icono-menu {
   border: 0.5px solid gray;
   border-radius: 2px;
   height: 30px;
   width: 40px;
-  color: gray;
+}
+
+.fa-bars {
+  font-size: 30px;
 }
 
 .home {
@@ -41,6 +70,23 @@ header {
 
 #menu:checked + .list {
   display: block;
+}
+
+.view-all {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 2px;
+  height: 60px;
+  width: 120px;
+  margin: 20px;
+}
+
+.text-view {
+  font-size: 30px;
+  color: white;
+  vertical-align: center;
+  padding-left: 5px;
 }
 
 /*# sourceMappingURL=web.css.map */
