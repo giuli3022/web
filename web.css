@@ -1,0 +1,154 @@
+body {
+  background-color: black;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+#main-section {
+  background-image: url(../imgs/hero-background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
+}
+
+.titles {
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.titulo {
+  padding-top: 20px;
+  margin: 0;
+  font-size: 32px;
+}
+
+.subtitulo {
+  margin-top: 15px;
+  font-size: 24px;
+  font-style: italic;
+}
+
+header {
+  background-color: #000000;
+  color: white;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.noxu {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.icono-menu {
+  border: 0.5px solid gray;
+  border-radius: 2px;
+  height: 30px;
+  width: 40px;
+}
+
+.fa-bars {
+  font-size: 30px;
+}
+
+.home {
+  color: white;
+  font-size: 25px;
+}
+
+.list {
+  color: gray;
+  font-size: 25px;
+  display: none;
+}
+
+#menu:checked + .list {
+  display: block;
+}
+
+#section-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/*boton*/
+.view-all {
+  border: 1px solid white;
+  border-radius: 3px;
+  height: 60px;
+  width: 120px;
+  margin: 40px;
+  display: inline-block;
+}
+
+.text-view {
+  font-size: 20px;
+  line-height: 60px;
+  color: white;
+  margin: 0;
+  padding-left: 25px;
+}
+
+/*h2 de featured products*/
+.featured-products {
+  color: white;
+  font-size: 35px;
+  margin: 30px;
+  padding-left: 85px;
+}
+
+/*LAS MALDITAS CARDS*/
+.card-img1 {
+  width: 300px;
+  height: 380px;
+  background-color: white;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.img001 {
+  height: 200px;
+  width: 200px;
+}
+
+.img001 img {
+  width: 100%;
+}
+
+.card-cont001 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.product-name {
+  width: 150px;
+  padding-left: 5px;
+}
+
+.price {
+  padding-right: 5px;
+  width: 30px;
+}
+
+/*# sourceMappingURL=web.css.map */
+
+/*# sourceMappingURL=web.css.map */
