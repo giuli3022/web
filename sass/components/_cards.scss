@@ -3,8 +3,8 @@
 /*LAS MALDITAS CARDS*/
 
 .card-img1 {
-    width: 300px;
-    height: 380px;
+    width: 200px;
+    height: 280px;
     background-color: $blanco;
     border-radius: 3px;
     margin: 20px;
@@ -20,16 +20,20 @@
 
 .card-cont001 {
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    }
 
 .product-name {
-    width: 150px;
+    width: 140px;
     padding-left: 5px;
+    margin-top: 5px;
    }
 
 .price {
+    width:50px;
+    margin-top: 5px;
     padding-right: 5px;
-    width:30px;
 }
 

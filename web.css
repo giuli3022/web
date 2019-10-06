@@ -6,16 +6,16 @@ body {
 
 /*LAS MALDITAS CARDS*/
 .card-img1 {
-  width: 300px;
-  height: 380px;
+  width: 250px;
+  height: 350px;
   background-color: white;
   border-radius: 3px;
-  box-sizing: border-box;
+  margin: 20px;
 }
 
 .img001 {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
 }
 .img001 img {
   width: 100%;
@@ -140,6 +140,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height: 600px;
 }
 
 .titulo-browse-items {
@@ -147,6 +148,36 @@ header {
   font-size: 35px;
   margin: 30px;
   padding-left: 85px;
+}
+
+.shoes-box {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+}
+
+.jeans-box {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+}
+
+.shirts-box {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+}
+
+.outfits-box {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+}
+
+.textbox {
+  color: white;
+  font-size: 25px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=web.css.map */
