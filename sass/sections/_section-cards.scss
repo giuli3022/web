@@ -33,37 +33,3 @@
     margin: 30px;
     padding-left: 85px;
 }
-
-/*LAS MALDITAS CARDS*/
-
-.card-img1 {
-    width: 300px;
-    height: 380px;
-    background-color: $blanco;
-    border-radius: 3px;
-    box-sizing: border-box;
-}
-
-.img001 {
-    height:200px;
-    width:200px;
-    img{
-        width: 100%;
-    }
-}
-
-.card-cont001 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.product-name {
-    width: 150px;
-    padding-left: 5px;
-   }
-
-.price {
-    padding-right: 5px;
-    width:30px;
-}
-

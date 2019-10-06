@@ -4,6 +4,38 @@ body {
   margin: 0;
 }
 
+/*LAS MALDITAS CARDS*/
+.card-img1 {
+  width: 300px;
+  height: 380px;
+  background-color: white;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.img001 {
+  height: 200px;
+  width: 200px;
+}
+.img001 img {
+  width: 100%;
+}
+
+.card-cont001 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-name {
+  width: 150px;
+  padding-left: 5px;
+}
+
+.price {
+  padding-right: 5px;
+  width: 30px;
+}
+
 #main-section {
   background-image: url(../imgs/hero-background.jpg);
   background-size: cover;
@@ -36,8 +68,6 @@ header {
   background-color: #000000;
   color: white;
   height: 75px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 0;
 }
@@ -75,13 +105,8 @@ header {
 }
 
 #section-cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -111,44 +136,17 @@ header {
   padding-left: 85px;
 }
 
-/*LAS MALDITAS CARDS*/
-.card-img1 {
-  width: 300px;
-  height: 380px;
-  background-color: white;
-  border-radius: 3px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.img001 {
-  height: 200px;
-  width: 200px;
-}
-
-.img001 img {
-  width: 100%;
-}
-
-.card-cont001 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+#browse-items {
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.product-name {
-  width: 150px;
-  padding-left: 5px;
+.titulo-browse-items {
+  color: white;
+  font-size: 35px;
+  margin: 30px;
+  padding-left: 85px;
 }
-
-.price {
-  padding-right: 5px;
-  width: 30px;
-}
-
-/*# sourceMappingURL=web.css.map */
 
 /*# sourceMappingURL=web.css.map */
