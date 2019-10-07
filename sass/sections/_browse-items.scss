@@ -1,43 +1,69 @@
 @import '../common/variables';
 
+
 #browse-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
 
 .titulo-browse-items {
     color: white;
     font-size: 35px;
-    width: 120px;
+    line-height: 1.5;
+    justify-content: center;
 }
 
+.div-browse-items {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+
+
 .shoes-box {
-    width: 300px;
-    height: 300px;
-    background-image: url(imgs/shoes.jpeg);
+    width: 250px;
+    height: 250px;
+    background-image: url(../imgs/shoes.jpg);
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
 }
 
 .jeans-box {
-    width: 300px;
-    height: 300px;
-    background-image: url(../../imgs/jeans.jpeg);
+    width: 250px;
+    height: 360px;
+    background-image: url(../imgs/jeans.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
 }
 
 .shirts-box {
-    width: 300px;
-    height: 300px;
-    background-color: white;
+    width: 250px;
+    height: 360px;
+    background-image: url(../imgs/shirts.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
 }
 
 .outfits-box {
-    width: 300px;
-    height: 300px;
-    background-color: white;
+    width: 250px;
+    height: 600px;
+    background-image: url(../imgs/outfits.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
 }
-
 
 .textbox {
     color: $blanco;

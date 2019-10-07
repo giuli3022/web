@@ -162,42 +162,151 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
 }
 
 .titulo-browse-items {
   color: white;
   font-size: 35px;
-  width: 120px;
+  line-height: 1.5;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.div-browse-items {
+  height: 150px;
+  width: 100%;
+  position: relative;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .shoes-box {
-  width: 300px;
-  height: 300px;
-  background-image: url(../../imgs/shoes.jpg);
+  width: 250px;
+  height: 250px;
+  background-image: url(../imgs/shoes.jpg);
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px;
 }
 
 .jeans-box {
-  width: 300px;
-  height: 300px;
-  background-color: white;
+  width: 250px;
+  height: 360px;
+  background-image: url(../imgs/jeans.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px;
 }
 
 .shirts-box {
-  width: 300px;
-  height: 300px;
-  background-color: white;
+  width: 250px;
+  height: 360px;
+  background-image: url(../imgs/shirts.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px;
 }
 
 .outfits-box {
-  width: 300px;
-  height: 300px;
-  background-color: white;
+  width: 250px;
+  height: 600px;
+  background-image: url(../imgs/outfits.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px;
 }
 
 .textbox {
   color: white;
   font-size: 25px;
   text-align: center;
+}
+
+/*POR FIN EL FOOTER*/
+footer {
+  background-color: rgba(121, 115, 115, 0.5);
+  height: 1600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.know-us, .contact, .feedback {
+  color: white;
+}
+
+.know-us {
+  font-size: 35px;
+  height: 100px;
+  width: 200px;
+  margin-top: 80px;
+  margin-left: 90px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #cac2c2;
+}
+
+.subtitulos {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.negrita {
+  font-size: 17px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.contact p {
+  font-size: 15px;
+  margin: 5px;
+  width: calc(50%-5px);
+  height: 20px;
+}
+
+.feedback p {
+  font-size: 15px;
+  line-height: 20px;
+  margin: 15px;
+  width: calc(50%-15px);
+  height: 40px;
+}
+
+.survey {
+  color: white;
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+  background-color: #00000000;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin: 30px;
+}
+
+.links a {
+  color: #007bff;
+  text-decoration: none;
+  height: 40px;
+  margin: 0;
+}
+
+.mapa {
+  width: 300px;
+  height: 200px;
+}
+
+.mapa img {
+  width: 300px;
+  height: 200px;
 }
 /*# sourceMappingURL=web.css.map */

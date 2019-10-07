@@ -1,0 +1,99 @@
+/*POR FIN EL FOOTER*/
+
+@import '../common/variables';
+
+footer {
+    background-color: rgba(121, 115, 115, 0.5);
+    height: 1600px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.know-us, .contact, .feedback, .programador {
+    color: $blanco;
+}
+
+.know-us {
+    font-size: 35px;
+    height: 100px;
+    width: 200px;
+    margin-top: 80px;
+    margin-left: 90px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(202, 194, 194);
+}
+
+.subtitulos {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.negrita {
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.contact {
+    p {
+        font-size:15px;
+        margin: 5px;
+        width: calc(50%-5px);
+        height: 20px;
+    }
+}
+
+.feedback {
+    p {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 15px;
+        width: calc(50%-15px);
+        height: 40px;
+    }
+}
+
+.survey {
+    color: $blanco;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    background-color: #00000000;
+    border: 1px solid $blanco;
+    border-radius: 3px;
+    margin: 30px;
+}
+
+
+.links  a{
+    color: #007bff;
+    text-decoration: none;
+    height: 40px;
+    margin: 0;
+}
+
+.mapa {
+    width: 300px;
+    height: 200px;
+    margin-left: 35px;
+    img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+.programador {
+    line-height: 30px;
+    margin: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    a {
+        color: #007bff;
+    }
+}
+
+.fa-instagram {
+    color: #007bff;
+    font-size: 50px;
+}
