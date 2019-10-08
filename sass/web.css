@@ -55,22 +55,66 @@ body {
   width: 100%;
 }
 
-.titles {
+.title {
   color: white;
   text-align: center;
-  margin: 0;
-  margin-bottom: 0;
+  padding-top: 15px;
+  font-size: 22px;
+  font-weight: 900;
 }
 
-.titulo {
-  padding-top: 20px;
-  margin: 0;
-  font-size: 32px;
+.title h2 {
+  margin: 10px;
 }
 
-.subtitulo {
-  margin-top: 15px;
+.cols {
+  height: 300px;
   font-size: 24px;
+  color: white;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.col-left {
+  width: 25%;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+
+.col-left p {
+  font-weight: 800;
+  padding: 10px;
+  padding-top: 50px;
+  line-height: 40px;
+}
+
+.col-left span {
+  color: #007bff;
+}
+
+.col-center {
+  width: 45%;
+  margin-top: 0;
+}
+
+.col-center p {
+  margin: 0;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.col-right {
+  width: 25%;
+  padding-top: 45px;
+}
+
+.col-right p {
+  padding: 20px;
   font-style: italic;
 }
 
@@ -85,16 +129,30 @@ header {
 }
 
 .noxu {
-  color: white;
   font-size: 30px;
   text-decoration: none;
+  margin-left: 20px;
+  width: 90%;
+}
+
+.noxu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
 }
 
 .icono-menu {
-  border: 0.5px solid gray;
+  border: 0.5px solid #cac2c2;
   border-radius: 2px;
   height: 30px;
-  width: 40px;
+  width: 30px;
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+#menu {
+  visibility: hidden;
 }
 
 .fa-bars {
@@ -242,7 +300,7 @@ footer {
           flex-direction: column;
 }
 
-.know-us, .contact, .feedback {
+.know-us, .contact, .feedback, .programador {
   color: white;
 }
 
@@ -303,10 +361,27 @@ footer {
 .mapa {
   width: 300px;
   height: 200px;
+  margin-left: 35px;
 }
 
 .mapa img {
   width: 300px;
   height: 200px;
+}
+
+.programador {
+  line-height: 30px;
+  margin: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.programador a {
+  color: #007bff;
+}
+
+.fa-instagram {
+  color: #007bff;
+  font-size: 50px;
 }
 /*# sourceMappingURL=web.css.map */

@@ -1,4 +1,5 @@
 @import '../common/variables';
+@import '../common/mixins';
 
 #main-section {
     background-image: url(../imgs/hero-background.jpg);
@@ -12,18 +13,66 @@
 .titles {
     color: $blanco;
     text-align: center;
-    margin: 0;
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: 900;
+    h2 {
+        margin: 10px;
+    }
+    h3 {
+        font-style: italic;
+    font-weight: 500;
+    margin-top: 0;
     margin-bottom: 0;
+    }
 }
 
-.titulo {
-    padding-top: 20px;
-    margin:0;
-    font-size: 32px;
-}
-
-.subtitulo {
-    margin-top: 15px;
+.cols {
+    height: 300px;
     font-size: 24px;
-    font-style: italic;
+    color: $blanco;
+    text-align: center;
+    padding: 10px;
+    margin:5px;
+    display: flex;
+    justify-content: space-between;
+    @include mobile {display:none;}    
+}
+
+.col-left {
+    width: 25%;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.514);
+    p {
+    font-weight: 800;
+    padding-top: 20px;
+    line-height: 40px;
+    }
+    span {
+    color: #007bff;
+    }
+    button {
+        width: 100px;
+        height:60px;
+        color: $blanco;
+        font-weight: 800;
+        background-color: #00000000;
+        border: 1px solid $blanco;
+        border-radius: 3px;
+    }
+}
+
+
+.col-center {
+    width: 45%;
+}
+
+
+.col-right {
+    width: 25%;
+    padding-top: 45px;
+    p {
+            font-style: italic;
+    }
+
 }

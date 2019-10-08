@@ -52,19 +52,68 @@ body {
 .titles {
   color: white;
   text-align: center;
-  margin: 0;
+  padding-top: 15px;
+  font-size: 22px;
+  font-weight: 900;
+}
+.titles h2 {
+  margin: 10px;
+}
+.titles h3 {
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
-.titulo {
-  padding-top: 20px;
-  margin: 0;
-  font-size: 32px;
+.cols {
+  height: 300px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 375px) and (max-width: 760px) {
+  .cols {
+    display: none;
+  }
 }
 
-.subtitulo {
-  margin-top: 15px;
-  font-size: 24px;
+.col-left {
+  width: 25%;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+.col-left p {
+  font-weight: 800;
+  padding-top: 20px;
+  line-height: 40px;
+}
+.col-left span {
+  color: #007bff;
+}
+.col-left button {
+  width: 100px;
+  height: 60px;
+  color: white;
+  font-weight: 800;
+  background-color: #00000000;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.col-center {
+  width: 45%;
+}
+
+.col-right {
+  width: 25%;
+  padding-top: 45px;
+}
+.col-right p {
   font-style: italic;
 }
 
@@ -77,16 +126,29 @@ header {
 }
 
 .noxu {
-  color: white;
   font-size: 30px;
   text-decoration: none;
+  margin-left: 20px;
+  width: 90%;
+}
+.noxu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
 }
 
 .icono-menu {
-  border: 0.5px solid gray;
+  border: 0.5px solid #cac2c2;
   border-radius: 2px;
   height: 30px;
-  width: 40px;
+  width: 30px;
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center;
+}
+
+#menu {
+  visibility: hidden;
 }
 
 .fa-bars {
@@ -116,12 +178,17 @@ header {
 
 /*boton*/
 .view-all {
-  border: 1px solid white;
-  border-radius: 3px;
+  height: 100px;
+  width: 100%;
+}
+.view-all p {
+  color: white;
+  font-weight: 800;
   height: 60px;
   width: 120px;
-  margin: 40px;
-  display: inline-block;
+  border: 1px solid white;
+  border-radius: 3px;
+  text-align: center;
 }
 
 .text-view {
