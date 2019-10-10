@@ -11,10 +11,12 @@
 .view-all {
     height: 100px;
     width:100%;
+    padding: 5%, 40%;
     
     p{  
         color: $blanco;
         font-weight: 800;
+        line-height: 60px;
         height: 60px;
         width: 120px;
         border: 1px solid $blanco;
@@ -27,8 +29,6 @@
     font-size: 20px;
     line-height: 60px;
     color: $blanco;
-    margin: 0;
-    padding-left: 25px;
 }
 
 /*h2 de featured products*/
@@ -36,6 +36,6 @@
 .featured-products {
     color: $blanco;
     font-size: 35px;
-    margin: 30px;
-    padding-left: 85px;
+    width: 100%;
+
 }
